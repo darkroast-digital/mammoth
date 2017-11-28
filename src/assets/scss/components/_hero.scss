@@ -1,0 +1,91 @@
+.hero {
+	background: $c-darker;
+	background-image: url('/assets/img/hero.jpg');
+	@include cover();
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+	
+	&__content {
+		max-width: 80%;
+		width: 100%;
+		margin-top: -5rem;
+		position: relative;	
+		z-index: 30;
+		text-align: center;
+		
+		@include mq(m) {
+			padding: 0 1rem;
+		}
+		
+		img {
+			max-width: 70%;
+			margin-bottom: -5rem;
+			
+			@include mq(m) {
+				margin-bottom: -1rem;
+				max-width: 100%;
+			}
+		}
+		
+		h1 { 
+			color: #fff;
+			margin-bottom: 0;
+			margin-top: 0;
+			text-transform: uppercase;
+			line-height: 1;
+			margin-bottom: $vertical-rhythm;
+			font-size: 3rem;
+			text-shadow: 0 10px 24px rgba(0,0,0,1);
+			
+			@include mq(m) {
+					font-size: 1rem;
+				}
+			
+			span {
+				font-weight: 900;
+				font-size: 4rem;
+				color: $c-secondary;
+				
+				@include mq(m) {
+					font-size: 2rem;
+				}
+			}
+		}
+		
+		h2 {
+			text-transform: uppercase;
+			@include type(font-size, 30rem, 75rem, 5.972rem, 10.166rem);
+		}
+		
+		.hero__content-buttons {
+			
+			@include mq(m) {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+		
+		.button {
+			@include button(round, $bg: $c-primary);
+			color: $c-white;
+			text-transform: uppercase;
+			border: none;
+			@include shadow(normal);
+			
+			@include mq(m) {
+				margin-bottom: .5rem;
+			}
+			
+			&:last-of-type {
+				@include button(round, $bg: $c-secondary);
+				color: $c-white;
+				margin-left: 1rem;
+			}
+		}
+	}
+}

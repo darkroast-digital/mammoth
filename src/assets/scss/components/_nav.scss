@@ -1,0 +1,158 @@
+.nav {
+	position: relative;
+	padding: 1rem 0;
+	width: 100%;
+	z-index: 50;
+	background: $c-white;
+	@include shadow(heavy);
+	
+	&__content {
+		@include row();
+		align-items: center;
+	}
+	
+	&__brand {
+		display: block;
+		width: 250px;
+		
+		img {
+			max-width: 100%;
+		}
+	}
+	
+	&__navbar {
+		display: flex;
+		@include flex-right();
+		
+		@include mq(m) {
+			display: none;
+		}
+	}
+	
+	li {
+		position: relative;
+		
+		a {
+			display: block;
+			padding: 2rem 2rem;
+			font-weight: bold;
+			@include transition($e: $easeInOutCubic);
+			
+			&:hover {
+				color: $c-tertiary;
+			}
+		}
+		
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			height: 2px;
+			width: 50%;
+			background: $c-tertiary;
+			@include transition();
+			opacity: 0;
+		}
+		
+		&:hover {
+			
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.nav.is--sticky {
+	position: fixed;
+	top: 0;
+}
+
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	background: $c-white;
+	align-items: center;
+	justify-content: center;
+	z-index: 80;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	@include transition();
+	
+	.menu__brand {
+		margin-bottom: 1rem;
+		text-align: center;
+		
+		img {
+			max-width: 70%;
+		}
+	}
+	
+	ul {
+		text-align: center;
+		
+		a {
+			font-size: 1.5rem;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.menu.is--open {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+}
+
+.menu__trigger {
+	position: fixed;
+	top: 1.2rem;
+	right: 0;
+	padding: 1rem;
+	z-index: 90;
+	cursor: pointer;
+	display: none;
+	
+	@include mq(m) {
+		display: block;
+	}
+	
+	span {
+		height: 3px;
+		width: 30px;
+		margin-bottom: 4px;
+		display: block;
+		background: $c-secondary;
+		@include transition();
+	}
+}
+
+.menu__trigger.is--open {
+	
+	span {
+		background: $c-tertiary;
+		
+		&:first-of-type {
+			transform: rotate(45deg) translateY(-5px);
+			transform-origin: top left;
+		}
+		
+		&:nth-of-type(2) {
+			opacity: 0;
+		}
+		
+		&:last-of-type {
+			transform: rotate(-45deg) translateY(5px);
+			transform-origin: bottom left;
+		}
+	}
+}

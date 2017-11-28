@@ -1,0 +1,13 @@
+.page__title {
+	background: $c-primary;
+	padding: 1rem 0;
+	
+	&--content {
+		@include row();
+		
+		h1 {
+			color: #fff;
+			margin: 0;
+		}
+	}
+}

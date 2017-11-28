@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+//
+//
+// Font Declarations
+//
+//
+
+
+$font-one: 'Lato';
+$font-two: 'Lato';
+
+// 
+//
+// Responsive Typography
+//
+// 
+
+$root-font-size: 18px;
+
+html {
+	font-size: $root-font-size;
+	font-family: $font-one;
+	color: $c-font;
+	vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-two;
+	letter-spacing: .15rem;
+	color: $c-font;
+	font-weight: 900;
+}
+
+a {
+	font-family: $font-two;
+	color: $c-font;
+}
+
+//
+//
+// Begin Math
+//
+//
+
+@mixin type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $min-vw) {
+      @each $property in $properties {
+        #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)});
+      }
+    }
+
+    @media screen and (min-width: $max-vw) {
+      @each $property in $properties {
+        #{$property}: $max-value;
+      }
+    }
+  }
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+//
+//
+// Base Values
+//
+//
+
+$base-line-height: 1.6;
+$vertical-rhythm: $base-line-height * $root-font-size;
+
+//
+//
+// Assign Values
+//
+//
+
+body {
+  @include type(font-size, 30rem, 75rem, 0.889rem, 1rem);
+	line-height: $base-line-height; 
+}
+
+p {
+	margin-bottom: $vertical-rhythm;
+}
+
+h1 {
+	@include type(font-size, 30rem, 75rem, 2.986rem, 3.583rem);
+	margin-bottom: $vertical-rhythm * 1.6;
+}
+
+h2 {
+	@include type(font-size, 30rem, 75rem, 2.488rem, 2.986rem);
+	margin-bottom: $vertical-rhythm * 1.5;
+}
+
+h3 {
+	@include type(font-size, 30rem, 75rem, 2.074rem, 2.488rem);
+	margin-bottom: $vertical-rhythm * 1.4;
+}
+
+h4 {
+	@include type(font-size, 30rem, 75rem, 1.728rem, 2.074rem);
+	margin-bottom: $vertical-rhythm * 1.3;
+}
+
+h4 {
+	@include type(font-size, 30rem, 75rem, 1.44rem, 1.728rem);
+	margin-bottom: $vertical-rhythm * 1.2;
+}
+
+h5 {
+	@include type(font-size, 30rem, 75rem, 1.2rem, 1.44rem);
+	margin-bottom: $vertical-rhythm * 1.1;
+}
+
+h6 {
+	@include type(font-size, 30rem, 75rem, 1rem, 1.2rem);
+	margin-bottom: $vertical-rhythm;
+}
+
+hr {
+	border-bottom: solid 3px $c-primary;
+	max-width: 40%;
+	margin-bottom: $vertical-rhythm * 1.5;
+}
