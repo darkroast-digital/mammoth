@@ -151,118 +151,118 @@
 
 				<section id="pricing" class="pricing">
 					<h2>2017 Price List</h2>
-					<p style="text-align:center;">All washes include two - step high quality with brightener soaps, and a 360 Degree (top of trailer and underneath) wash.</p>
+					<p style="text-align:center;">All washes include two - step high quality with brightener soaps, and a 360 Degree rinse.</p>
 					<hr>
 					<ul class="service__price">
 						<ul>
-							<li>Cabover Tractor</li>
-							<li>$51.50</li>
-						</ul>
-
-						<ul>
 							<li>Conventional Tractor</li>
-							<li>$54.50</li>
+							<li>$59.50</li>
 						</ul>
 
 						<ul>
-							<li>Small Tractor or Shunt Truck Tractor</li>
-							<li>$30.00</li>
+							<li>Tractor Combo</li>
+							<li>$49.35</li>
 						</ul>
 
 						<ul>
-							<li>5th Wheel/ Pick Up</li>
-							<li>$18.00</li>
+							<li>Small Tractor/Shunt</li>
+							<li>$34.99</li>
 						</ul>
 
-						<ul>
-							<li>Tractor discount applied when other services are purchased</li>
-							<li>$44.35</li>
-						</ul>
 					</ul>
 					<div class="flex-container">
 					<dl>
 						<dt>Flatbed</dt>
 						<dd><strong>Trailer</strong> - $32.40</dd>
-						<dd><strong>w/ Tractor</strong> - $76.75</dd>
+						<dd><strong>w/ Tractor</strong> - $81.75</dd>
 						<dd><strong>Train</strong> - $51.45</dd>
-						<dd><strong>w/ Tractor</strong> - $95.80</dd>
+						<dd><strong>w/ Tractor</strong> - $100.80</dd>
+					</dl>
+					<dl>
+						<dt>Flatbed - Step or Drop Deck</dt>
+						<dd><strong>Trailer</strong> - $42.40</dd>
+						<dd><strong>w/ Tractor</strong> - $91.75</dd>
 					</dl>
 					<dl>
 						<dt>Dry Van</dt>
 						<dd><strong>Trailer</strong> - $44.98</dd>
-						<dd><strong>w/ Tractor</strong> - $89.33</dd>
+						<dd><strong>w/ Tractor</strong> - $94.33</dd>
 						<dd><strong>Train</strong> - $66.24</dd>
-						<dd><strong>w/ Tractor</strong> - $110.59</dd>
+						<dd><strong>w/ Tractor</strong> - $115.59</dd>
 					</dl>
 					<dl>
 						<dt>Reefer</dt>
 						<dd><strong>Trailer</strong> - $44.98</dd>
-						<dd><strong>w/ Tractor</strong> - $89.33</dd>
+						<dd><strong>w/ Tractor</strong> - $94.33</dd>
 						<dd><strong>Train</strong> - $66.24</dd>
-						<dd><strong>w/ Tractor</strong> - $110.59</dd>
+						<dd><strong>w/ Tractor</strong> - $115.59</dd>
 					</dl>
 					<dl>
 						<dt>Flatbed with Rack & Trap</dt>
 						<dd><strong>Trailer</strong> - $44.98</dd>
-						<dd><strong>w/ Tractor</strong> - $89.33</dd>
+						<dd><strong>w/ Tractor</strong> - $94.33</dd>
 						<dd><strong>Train</strong> - $66.24</dd>
-						<dd><strong>w/ Tractor</strong> - $110.59</dd>
+						<dd><strong>w/ Tractor</strong> - $115.59</dd>
 					</dl>
 					<dl>
-						<dt>Faltbed with Curatain Sides</dt>
+						<dt>Faltbed with Curtain Sides</dt>
 						<dd><strong>Trailer</strong> - $44.98</dd>
-						<dd><strong>w/ Tractor</strong> - $89.33</dd>
+						<dd><strong>w/ Tractor</strong> - $94.33</dd>
 						<dd><strong>Train</strong> - $66.24</dd>
-						<dd><strong>w/ Tractor</strong> - $110.59</dd>
+						<dd><strong>w/ Tractor</strong> - $115.59</dd>
 					</dl>
 					<dl>
 						<dt>Tanker</dt>
 						<dd><strong>Trailer</strong> - $53.10</dd>
-						<dd><strong>w/ Tractor</strong> - $97.45</dd>
+						<dd><strong>w/ Tractor</strong> - $102.45</dd>
 						<dd><strong>Train</strong> - $84.99</dd>
-						<dd><strong>w/ Tractor</strong> - $129.34</dd>
+						<dd><strong>w/ Tractor</strong> - $134.34</dd>
 					</dl>
 					<dl>
 						<dt>Grain Hopper</dt>
-						<dd><strong>Trailer</strong> - $61.30</dd>
-						<dd><strong>w/ Tractor</strong> - $105.65</dd>
-						<dd><strong>Train</strong> - $86.24</dd>
-						<dd><strong>w/ Tractor</strong> - $130.59</dd>
+						<dd><strong>Trailer</strong> - $63.30</dd>
+						<dd><strong>w/ Tractor</strong> - $112.65</dd>
+						<dd><strong>Train</strong> - $88.24</dd>
+						<dd><strong>w/ Tractor</strong> - $137.59</dd>
 					</dl>
 					<dl>
 						<dt>Gravel Hopper</dt>
 						<dd><strong>Trailer</strong> - $66.44</dd>
-						<dd><strong>w/ Tractor</strong> - $110.79</dd>
+						<dd><strong>w/ Tractor</strong> - $115.79</dd>
 						<dd><strong>Train</strong> - $86.24</dd>
-						<dd><strong>w/ Tractor</strong> - $130.59</dd>
+						<dd><strong>w/ Tractor</strong> - $135.59</dd>
 					</dl>
 					<dl>
 						<dt>Dry Bulk</dt>
 						<dd><strong>Trailer</strong> - $72.10</dd>
-						<dd><strong>w/ Tractor</strong> - $116.45</dd>
+						<dd><strong>w/ Tractor</strong> - $121.45</dd>
 						<dd><strong>Train</strong> - $97.23</dd>
-						<dd><strong>w/ Tractor</strong> - $141.58</dd>
+						<dd><strong>w/ Tractor</strong> - $146.58</dd>
+					</dl>
+					<dl>
+						<dt>Dump</dt>
+						<dd><strong>Trailer</strong> - $63.30</dd>
+						<dd><strong>w/ Tractor</strong> - $112.65</dd>
+					</dl>
+					<dl>
+						<dt>Garbage Dump</dt>
+						<dd><strong>Trailer</strong> - $72.10</dd>
+						<dd><strong>w/ Tractor</strong> - $121.45</dd>
 					</dl>
 					<dl>
 						<dt>Live Bottom</dt>
-						<dd><strong>Trailer</strong> - $59.34</dd>
-						<dd><strong>w/ Tractor</strong> - $103.69</dd>
+						<dd><strong>Trailer</strong> - $63.34</dd>
+						<dd><strong>w/ Tractor</strong> - $112.69</dd>
 					</dl>
 					<dl>
 						<dt>Livestock</dt>
-						<dd><strong>Trailer</strong> - $63.87</dd>
-						<dd><strong>w/ Tractor</strong> - $108.22</dd>
+						<dd><strong>Trailer</strong> - $65.87</dd>
+						<dd><strong>w/ Tractor</strong> - $115.22</dd>
 					</dl>
 					<dl>
 						<dt>Walking Floor</dt>
 						<dd><strong>Trailer</strong> - $68.93</dd>
-						<dd><strong>w/ Tractor</strong> - $113.28</dd>
-					</dl>
-					<dl>
-						<dt>Auto Carrier</dt>
-						<dd><strong>Trailer</strong> - $55.25</dd>
-						<dd><strong>w/ Tractor</strong> - $99.60</dd>
-						<dd><strong>Inside wash of frame</strong> + $30.00</dd>
+						<dd><strong>w/ Tractor</strong> - $118.28</dd>
 					</dl>
 					<dl>
 						<dt>Auto Carrier</dt>
@@ -278,18 +278,13 @@
 					</dl>
 					<dl>
 						<dt>Straight Truck</dt>
-						<dd><strong>Single Axle</strong> - $44.98</dd>
-						<dd><strong>Tandem</strong> - $50.98</dd>
-					</dl>
-					<dl>
-						<dt>Straight Truck</dt>
-						<dd><strong>Single Axle</strong> - $44.98</dd>
-						<dd><strong>Tandem</strong> - $50.98</dd>
+						<dd><strong>Single Axle</strong> - $65.99</dd>
+						<dd><strong>Tandem</strong> - $75.99</dd>
 					</dl>
 					<dl>
 						<dt>Straight Tanker</dt>
-						<dd><strong>Single Axle</strong> - $55.50</dd>
-						<dd><strong>Tandem</strong> - $68.50</dd>
+						<dd><strong>Single Axle</strong> - $54.42</dd>
+						<dd><strong>Tandem</strong> - $64.09</dd>
 					</dl>
 					<dl>
 						<dt>Straight Truck Flatbed</dt>
@@ -301,24 +296,23 @@
 						<dt>Dump Truck</dt>
 						<dd><strong>Single Axle</strong> - $55.50</dd>
 						<dd><strong>Tandem</strong> - $68.50</dd>
-						<dd><strong>Dump Pony Pup</strong> - $113.25</dd>
-					</dl>
-					<dl>
-						<dt>Tow Trucks</dt>
-						<dl><strong>Pick Up</strong> - $20.00</dl>
-						<dl><strong>Small Flatbed</strong> - Single Axle $32.40 | Tandem - $38.40</dl>
-						<dl><strong>Medium Duty</strong> - $40.00</dl>
-						<dl><strong>Large Duty</strong> - $64.92</dl>
-					</dl>
-					<dl>
-						<dt>Camper Trailer</dt>
-						<dl><strong>Single Axle</strong> - $24.00</dl>
-						<dl><strong>Tandem</strong> - $38.40</dl>
+						<dd><strong>Dump Pony Pup</strong> - $133.25</dd>
 					</dl>
 					<dl>
 						<dt>Motor Home</dt>
-						<dl><strong>Less than 30'</strong> - $50.00</dl>
-						<dl><strong>More than 31'</strong> - $70.00</dl>
+						<dd><strong>Less than 30'</strong> - $50.00</dd>
+						<dd><strong>More than 31'</strong> - $70.00</dd>
+					</dl>
+					<dl>
+						<dt>Camper Trailer</dt>
+						<dd><strong>Single Axle</strong> - $24.00</dd>
+					</dl>
+					<dl>
+						<dt>Tow Trucks</dt>
+						<dd><strong>Pick Up</strong> - $20.00</dd>
+						<dd><strong>Small Flatbed</strong> - Single Axle $32.40 | Tandem - $38.40</dd>
+						<dd><strong>Medium Duty</strong> - $40.00</dd>
+						<dd><strong>Large Duty</strong> - $64.92</dd>
 					</dl>
 					<dl>
 						<dd><strong>Car</strong> - $16.00</dd>
@@ -333,45 +327,63 @@
 						<dd><strong>School Bus</strong> - $35.90</dd>
 					</dl>
 					<dl>
-						<dd><strong>Hydro Truck w/ Boom</strong> - $27.00</dd>
+						<dd><strong>Hydro Truck w/ Boom</strong> - $35.00</dd>
 					</dl>
 					<dl>
 						<dt>Moving Trailer</dt>
-						<dd><strong>Under 15'</strong> - $23.76</dd>
-						<dd><strong>Between 16-25'</strong> - $33.90</dd>
-						<dd><strong>Over 26'</strong> - $39.50</dd>
+						<dd><strong>Under 15'</strong> - $24.00</dd>
+						<dd><strong>Between 16-25'</strong> - $39.00</dd>
+						<dd><strong>Over 26'</strong> - $49.00</dd>
 					</dl>
 					</div>
 					<h6>Looking For Customized Services?</h6>
-					<h2>Corporate Accounts</h2>
+					<h2>Additional Charges</h2>
 					<dl>
 						<dt>Wash Outs</dt>
 						<dd><strong>Wash Out</strong> - $38.99</dd>
-						<dd><strong>Straight Truck inside wash</strong> - $24.35</dd>
+						<dd><strong>Straight Truck inside wash</strong> - $25.00</dd>
+						<dd><strong>Dump Truck Tandem Wash out</strong> - $15.00</dd>
+						<dd><strong>Full Size Dump Truck Wash out</strong> - $25.00</dd>
+						<dd><strong>Debris Clean out</strong> - $10.00</dd>
+						<dd><strong>Acid Dump Wash Out</strong> - $120.00</dd>
+						<dd><strong>Kosher Wash Out - including Seals</strong> - $200.00</dd>
 					</dl>
 					<dl>
 						<dt>Hydrosheen (Rain-x)</dt>
-						<dd><strong>Tractor</strong> - $</dd>
-						<dd><strong>Trailer</strong> - $</dd>
-						<dd><strong>Tractor/ Trailer Combo</strong> - $</dd>
-						<dd><strong>RV/ Bus</strong> - $16.00</dd>
-						<dd><strong>Straight Truck</strong> - $16.00</dd>
+						<dd><strong>Tractor</strong> - $10.75</dd>
+						<dd><strong>Trailer</strong> - $16.75</dd>
+						<dd><strong>Tractor/ Trailer Combo</strong> - $22.95</dd>
+						<dd><strong>RV/ Bus</strong> - $16.75</dd>
+						<dd><strong>Straight Truck</strong> - $16.75</dd>
 						<dd><strong>Pickup/ Car</strong> - $7.00</dd>
 					</dl>
 					<dl>
 						<dd><strong>Engine Wash</strong> - $10.00</dd>
 					</dl>
 					<dl>
-						<dd><strong>Straight Rinse</strong> - $64.99</dd>
+						<dd><strong>Straight Rinse</strong> - $49.95</dd>
 					</dl>
 					<dl>
 						<dt>Brightener</dt>
-						<dd><strong>Tractor/ Trailer Combo</strong> - $25.00</dd>
+						<dd><strong>Tractor Tank</strong> - $5.00</dd>
 						<dd><strong>Tractor</strong> - $10.00</dd>
 						<dd><strong>Trailer</strong> - $25.00</dd>
+						<dd><strong>Tractor/ Trailer Combo</strong> - $25.00</dd>
 					</dl>
-					<p class="subtitle" style="padding-top: 1rem;margin-bottom: 0;">All prices are subject to tax. More in depth price and service list available upon request.</p>
-					<p class="subtitle" style="line-height: 1;margin-top: 0;"><small>*All prices subject to change.</small></p>
+					<dl>
+						<dd><strong>6 Axle</strong> - $10.00</dd>
+					</dl>
+					<dl>
+						<dd><strong>7 Axle</strong> - $15.00</dd>
+					</dl>
+					<dl>
+						<dd><strong>Tri-Axle</strong> - $10.00</dd>
+					</dl>
+					<dl>
+						<dd><strong>Extra Soil Charge (Depends on the amount of soil)</strong> - $10.00 - $20.00 - $30.00</dd>
+					</dl>
+					<p class="subtitle" style="padding-top: 1rem;margin-bottom: 0;">All prices are subject to tax.</p>
+					<p class="subtitle" style="line-height: 1;margin-top: 0;"><small>All prices subject to change.</small></p>
 				</section>
 
 				<section id="corporate" class="corporate">
@@ -397,7 +409,7 @@
 						<p>If you wish to apply for a job at Mammoth Truck Wash, you can drop off your resume at Exit 56 20500 County Rd 42, North Tilbury, or email it to us at mammothtruckwashjobs@gmail.com</p>
 
 						<h2>Contact Us</h2>
-						<p>For general inquiries please use the form below or email us at info@mammothtruckwash.com . We can also be reached by phone at 226 773 3087, 519-791-9345 and 519-819-1777</p>
+						<p>For general inquiries please use the form below or email us at info@mammothtruckwash.com . We can also be reached by phone at 226-773-3087</p>
 
 						<hr>
 						<?php include 'snippets/form.php' ?>
