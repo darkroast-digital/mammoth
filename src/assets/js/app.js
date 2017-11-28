@@ -175,13 +175,13 @@ $(window).scroll(function () {
 var map = new GMaps({
 	el: '#map',
 	scrollwheel: false,
-	lat: 42.264027,
-	lng: -82.462430
+	lat: 42.263920,
+	lng: -82.454228
 });
 
 map.addMarker({
-	lat: 42.264027,
-	lng: -82.462430,
+	lat: 42.263920,
+	lng: -82.454228,
 	title: 'Mammoth Truck Wash'
 }); 
 
